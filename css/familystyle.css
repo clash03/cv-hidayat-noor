@@ -1,0 +1,446 @@
+/* ======================== NAVIGATOR/LINK ========================================================= */
+.navigator{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 222px;
+  margin-top: 0%;
+
+  z-index: 100;
+}
+
+
+.navigator a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 0%;
+  margin-top: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  transition: text-shadow 0.5s;
+
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+a:visited {
+  color: rgb(183, 183, 183);
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+#navbox{
+  box-sizing: border-box;
+  background-color: #131919;
+  width: 2000px;
+  height: 50px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transition: box-shadow 0.5s;
+  z-index: 99;
+}
+
+
+/* ========================= END ==================================================================== */
+
+/* =================== BODY/BACKGROUND=============================================================== */
+
+body {
+  margin:40px;
+  background: url(csspicture/bg7.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+  width: 1020px;
+}
+/* ========================= END ===================================================================== */
+
+/* ========================= HEADER/TAJUK PAGE ======================================================= */
+.logobiodata{
+  position: fixed;
+  z-index: 100;
+}
+
+#biodata{
+  position: fixed;
+  z-index: 110;
+  top:-70px;
+  left: 40px;
+  width: 200px;
+}
+
+/* ========================= END ====================================================================== */
+
+/* ========================= PICTURE ====================================================================== */
+.love{
+  position: absolute;
+  box-sizing: border-box;
+  left: 583px;
+  top: 630px;
+  z-index: 11;
+  filter: drop-shadow(1px 1px 3px rgb(0, 0, 0));
+
+}
+
+
+.bigfamily{
+  position: absolute;
+  border-radius: 30px;
+  box-sizing: border-box;
+  left: 100px;
+  top: 200px;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 0px 10px white;
+  z-index: 20;
+
+}
+
+.bigfamily:hover{
+
+}
+
+
+.family{
+  position: absolute;
+  border-radius: 30px;
+  box-sizing: border-box;
+  right: 100px;
+  top: 200px;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 0px 10px white;
+  z-index: 20;
+}
+
+.family:hover{
+
+}
+
+
+.mother{
+  position: absolute;
+  border-radius: 30px;
+  box-sizing: border-box;
+  left: 350px;
+  top: 600px;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 0px 10px white;
+  z-index: 20;
+
+}
+
+.mother:hover{
+
+}
+
+
+.father{
+  position: absolute;
+  border-radius: 30px;
+  box-sizing: border-box;
+  right: 350px;
+  top: 600px;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 0px 10px white;
+  z-index: 20;
+
+}
+
+.father:hover{
+
+}
+
+
+.bro1{
+  position: absolute;
+  border-radius: 30px;
+  box-sizing: border-box;
+  left: 100px;
+  top: 900px;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 0px 10px white;
+  z-index: 20;
+
+}
+
+.bro1:hover{
+  
+}
+
+
+.bro2{
+  position: absolute;
+  border-radius: 30px;
+  box-sizing: border-box;
+  left: 400px;
+  top: 900px;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 0px 10px white;
+  z-index: 20;
+
+}
+
+.bro2:hover{
+
+}
+
+
+.me{
+  position: absolute;
+  border-radius: 30px;
+  box-sizing: border-box;
+  right: 400px;
+  top: 900px;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 0px 10px white;
+  z-index: 20;
+
+}
+
+.me:hover{
+
+}
+
+.ybro{
+  position: absolute;
+  border-radius: 30px;
+  box-sizing: border-box;
+  right: 100px;
+  top: 900px;
+  overflow: hidden;
+  transition: box-shadow 0.4s;
+  box-shadow: 0px 0px 10px white;
+  z-index: 20;
+
+}
+
+.ybro:hover{
+
+}
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LINE ====================================================================== */
+.line1{
+  box-sizing: border-box;
+  border-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 530px;
+  top: 670px;
+  z-index: 0;
+  padding: 0.1px 100px;
+  box-shadow: 1px 1px 20px white;
+  background-color: rgb(255, 255, 255);
+}
+
+.line2{
+  box-sizing: border-box;
+  border-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 625px;
+  top: 670px;
+  z-index: 0;
+  padding: 60px 8px;
+  box-shadow: 1px 1px 20px white;
+  background-color: rgb(255, 255, 255);
+}
+
+.line3{
+  box-sizing: border-box;
+  border-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 200px;
+  top: 800px;
+  z-index: 0;
+  padding: 0.1px 430px;
+  box-shadow: 1px 1px 20px white;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.line4{
+  box-sizing: border-box;
+  border-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 200px;
+  top: 800px;
+  z-index: 0;
+  padding: 50px 8px;
+  box-shadow: 1px 1px 20px white;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.line5{
+  box-sizing: border-box;
+  border-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 490px;
+  top: 800px;
+  z-index: 0;
+  padding: 50px 8px;
+  box-shadow: 1px 1px 20px white;
+  background-color: rgb(255, 255, 255);
+}
+
+.line6{
+  box-sizing: border-box;
+  border-color: rgb(0, 0, 0);
+  position: absolute;
+  right: 490px;
+  top: 800px;
+  z-index: 0;
+  padding: 50px 8px;
+  box-shadow: 1px 1px 20px white;
+  background-color: rgb(255, 255, 255);
+}
+
+.line7{
+  box-sizing: border-box;
+  border-color: rgb(0, 0, 0);
+  position: absolute;
+  right: 200px;
+  top: 800px;
+  z-index: 0;
+  padding: 50px 8px;
+  box-shadow: 1px 1px 20px white;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= FOOTER  ====================================================================== */
+
+#borderfoot{
+  position:absolute;
+  background-color: #131919;
+  box-sizing: border-box;
+  top: 1080px;
+  width: 1263px;
+  height: 250px;
+  left: 0%;
+}
+
+
+.yweb img{
+ position: absolute;
+ top: 1120px;
+ left: 40px;
+ width: 100px;
+ z-index: 100;
+
+}
+
+.logomedia{
+  position: absolute;
+  top: 1280px;
+  right: 300px;
+
+}
+
+
+
+.logomedia img{
+  width: 40px;
+
+}
+
+
+#midline2{
+  box-sizing: border-box;
+  background-color: rgb(136, 131, 131);
+  position: absolute;
+  width: 1200px;
+  height: 2px;
+  z-index: 100;
+  left: 30px;
+  top: 1265px;
+
+}
+
+.ywebname{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 1110px;
+  left: 130px;
+  width: 100px;
+  font-family: 'raleway';
+  font-size: 20px;
+
+}
+
+.copyright{
+  position: absolute;
+  top: 1270px;
+  left: 50px;
+  color: white;
+  font-family: 'raleway';
+
+}
+
+.detailssosial{
+  position: absolute;
+  color: white;
+  top: 1120px;
+  right: 100px;
+  font-family: 'raleway';
+}
+
+
+
+
+/* ========================= END ====================================================================== */
+
+
+
+
+/* ========================= MUSIC/VIDEO ============================================================== */
+#music{
+  visibility: hidden;
+}
+/* ========================= END ====================================================================== */
+

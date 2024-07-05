@@ -1,0 +1,501 @@
+/* ======================== NAVIGATOR/LINK ========================================================= */
+.navigator{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 222px;
+  margin-top: 0%;
+  z-index: 100;
+}
+
+
+.navigator a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 0%;
+  margin-top: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  transition: text-shadow 0.5s;
+
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+a:visited {
+  color: rgb(183, 183, 183);
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+#navbox{
+  box-sizing: border-box;
+  background-color: #131919;
+  width: 2000px;
+  height: 50px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transition: box-shadow 0.5s;
+  z-index: 99;
+}
+
+
+/* ========================= END ==================================================================== */
+  
+/* =================== BODY/BACKGROUND=============================================================== */
+
+  body {
+    margin:40px;
+    background: url(csspicture/bg7.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+  }
+/* ========================= END ===================================================================== */
+
+/* ========================= HEADER/TAJUK PAGE ======================================================= */
+
+
+.logobiodata{
+  position: fixed;
+  z-index: 100;
+}
+
+#biodata{
+  position: fixed;
+  z-index: 110;
+  top:-60px;
+  left: 40px;
+  width: 200px;
+}
+
+
+/* ========================= END ====================================================================== */
+
+/* ============================================================================================== */
+
+
+/* ========================= PAGE 1 ====================================================================== */
+.profilepicture{
+  z-index: 10;
+  position: absolute;
+  top: 256px;
+  left: 50px;
+}
+
+.banner{
+  z-index: 1;
+  position: absolute;
+  left:200px;
+  top: 150px;
+  box-sizing: border-box;
+  filter: drop-shadow(1px 1px 5px rgb(57, 57, 57));
+  height: 600px;
+  width: 1000px;
+  background-color: rgba(122, 122, 122, 0.616);
+  
+}
+
+
+
+.border{
+  position:absolute;
+  box-sizing: border-box;
+  height: 350px;
+  width: 300px;
+  top: 200px;
+  left: 50px;
+  background-color: #707070;
+  z-index: 9;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 5px 5px 0px 0px;
+  
+}
+
+.border2{
+  position:absolute;
+  box-sizing: border-box;
+  height: 50px;
+  width: 300px;
+  top: 550px;
+  left: 50px;
+  background-color: #0000007e;
+  z-index: 8;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 0px 0px 5px 5px;
+  
+}
+
+.name{
+  box-sizing: border-box;
+  position:absolute;
+  color: white;
+  left: 400px;
+  top: 200px;
+  width: 500px;
+  z-index: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+#phone{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  left: 400px;
+  top: 300px;
+  z-index: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+#mail{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  left: 400px;
+  top: 340px;
+  z-index: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#email{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  left: 480px;
+  top: 340px;
+  z-index: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+#alamat{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  left: 400px;
+  top: 380px;
+  z-index: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+#address{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  left: 480px;
+  top: 380px;
+  z-index: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+#education{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  left: 400px;
+  top: 500px;
+  z-index: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#education2{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  left: 480px;
+  top: 500px;
+  z-index: 100;
+  width: 200px;
+  z-index: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+
+#webdev{
+  position: absolute;
+  right: 150px;
+  top: 200px;
+  z-index: 20;
+}
+
+#webdev img{
+  width: 300px;
+  border-radius: 5px;
+
+}
+/* ========================= END ====================================================================== */
+
+
+/* =============================================================================================== */
+
+
+/* ========================= PAGE 2 ====================================================================== */
+
+
+
+.midline{
+  box-sizing: border-box;
+  position: absolute;
+  background-color: rgb(176, 176, 176);
+  height: 400px;
+  width: 2px;
+  left: 800px;
+  top: 200px;
+  z-index: 20;
+}
+
+
+.objective{
+  box-sizing: border-box;
+  color: white;
+  position: absolute;
+  z-index: 100;
+  width: 300px;
+  left: 820px;
+  top: 370px;
+  z-index: 20;
+  text-align: justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+#footer{
+  position: absolute;
+  left: 0%;
+  top: 950px;
+}
+
+#footer img{
+  width: 1263px;
+}
+
+
+#footertitle{
+  position: absolute;
+  color: white;
+  top: 1000px;
+  left: 220px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+
+}
+
+
+#midline{
+  box-sizing: border-box;
+  background-color: grey;
+  position: absolute;
+  width: 1263px;
+  height: 2px;
+  z-index: 30;
+  left: 0%;
+  top: 950px;
+
+}
+
+
+#enter{
+  position: absolute;
+  z-index: 40;
+  left: 200px;
+  top: 1190px;
+  width: 30px;
+
+}
+
+#enter img{
+  width: 300px;
+  filter: drop-shadow(0px 0px 5px);
+}
+
+#enter img:hover{
+  filter: drop-shadow(0px 0px 10px white);
+  width: 305px;
+}
+
+
+#logocompany{
+  position: absolute;
+  z-index: 30;
+  right: 20px;
+  top: 1200px;
+
+}
+
+#logocompany img{
+  width: 300px;
+}
+
+
+/* ======================= MAINTANENCE ======================================================================== */
+
+
+#fix{
+  position: absolute;
+  top: 950px;
+  left: 0px;
+  z-index: 98;
+}
+
+#fix img{
+  width: 1263px;
+
+}
+/* ========================= END ====================================================================== */
+
+
+/* =============================================================================================== */
+
+
+/* ========================= FOOTER ====================================================================== */
+
+#borderfoot{
+  position:absolute;
+  background-color: #131919;
+  box-sizing: border-box;
+  top: 1660px;
+  width: 1263px;
+  height: 250px;
+  left: 0%;
+}
+
+
+.yweb img{
+ position: absolute;
+ top: 1700px;
+ left: 40px;
+ width: 100px;
+ z-index: 100;
+
+}
+
+.logomedia{
+  position: absolute;
+  top: 1860px;
+  right: 300px;
+
+}
+
+
+
+.logomedia img{
+  width: 40px;
+
+}
+
+
+#midline2{
+  box-sizing: border-box;
+  background-color: rgb(136, 131, 131);
+  position: absolute;
+  width: 1200px;
+  height: 2px;
+  z-index: 100;
+  left: 30px;
+  top: 1850px;
+
+}
+
+.ywebname{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 1690px;
+  left: 130px;
+  width: 100px;
+  font-family: 'raleway';
+  font-size: 20px;
+
+}
+
+.copyright{
+  position: absolute;
+  top: 1850px;
+  left: 50px;
+  color: white;
+  font-family: 'raleway';
+
+}
+
+.detailssosial{
+  position: absolute;
+  color: white;
+  top: 1700px;
+  right: 100px;
+  font-family: 'raleway';
+}
+/* ========================= END ====================================================================== */
+
+
+
+
+/* =============================================================================================== */
+
+
+/* ========================= MUSIC/VIDEO ============================================================== */
+#music{
+    visibility: hidden;
+}
+
+#favmusic{
+
+
+}
+/* ========================= END ====================================================================== */
+  
+  

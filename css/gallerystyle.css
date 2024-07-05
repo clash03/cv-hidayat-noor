@@ -1,0 +1,332 @@
+/* ======================== NAVIGATOR/LINK ========================================================= */
+.navigator{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 222px;
+  margin-top: 0%;
+
+  z-index: 100;
+}
+
+
+.navigator a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 0%;
+  margin-top: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  transition: text-shadow 0.5s;
+
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+a:visited {
+  color: rgb(183, 183, 183);
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+#navbox{
+  box-sizing: border-box;
+  background-color: #131919;
+  width: 2000px;
+  height: 50px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transition: box-shadow 0.5s;
+  z-index: 99;
+}
+
+
+/* ========================= END ==================================================================== */
+
+/* =================== BODY/BACKGROUND=============================================================== */
+
+body {
+  margin:40px;
+  background: url(csspicture/bg7.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+/* ================================= END ===================================================================== */
+
+/* ====================================================================================================== */
+
+/* ================================= VIDEO BANNER ===================================================================== */
+
+
+#videobanner{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  height: 600px;
+  background-color: transparent;
+  
+}
+
+#videobanner embed{
+  height: 200px;
+  width: 350px;
+  background-color: transparent;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= HEADER/TAJUK PAGE ======================================================= */
+.logobiodata{
+  position: fixed;
+  z-index: 100;
+}
+
+#biodata{
+  position: fixed;
+  z-index: 110;
+  top:-70px;
+  left: 40px;
+  width: 200px;
+}
+
+/* ========================= END ====================================================================== */
+.mainboxbackground{
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.758);
+  padding: 200px 310px;
+  position: absolute;
+  left: 65px;
+  top:400px;
+  border-radius: 20px;
+  position: absolute;
+  transition: box-shadow 0.5s;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.76);
+  
+}
+
+
+.boxbackground{
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.758);
+  padding: 290px 230px;
+  position: absolute;
+  right: 100px;
+  top: 280px;
+  border-radius: 20px;
+
+}
+
+.boxbackground2{
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.758);
+  padding: 50px 230px;
+  position: absolute;
+  right: 100px;
+  top: 150px;
+  border-radius: 20px;
+
+}
+
+.boxbackground3{
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: rgba(250, 250, 250, 0.251);
+  padding: 38px 220px;
+  position: absolute;
+  right: 110px;
+  top: 162px;
+  border-radius: 20px;
+
+}
+/* ======================================== MUSIC/VIDEO ============================================================== */
+
+
+/* ================================== IMAGE PREVIEW TRANSITION ======================================================= */
+  .container {
+    margin: 0 auto;
+    width: 90%;
+
+  }
+  
+  .main_view {
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    z-index: 10;
+    top: 430px;
+    left: 100px;
+  
+  }
+  
+  .main_view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    width: 550px;
+    height: 350px;
+    box-sizing: border-box;
+
+  }
+  
+  .side_view {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 10;
+    left: 700px;
+    top: 300px;
+    right: 100px;
+
+  }
+  
+  .side_view img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    object-fit: cover;
+
+  }
+
+  
+/* ============================================== END ============================================================== */
+
+/* ============================================================================================================ */
+
+/* ============================================== FOOTER ============================================================== */
+
+#borderfoot{
+  position:absolute;
+  background-color: #131919;
+  box-sizing: border-box;
+  top: 1080px;
+  width: 1263px;
+  height: 250px;
+  left: 0%;
+
+}
+
+
+.yweb img{
+ position: absolute;
+ top: 1120px;
+ left: 40px;
+ width: 100px;
+ z-index: 100;
+
+}
+
+.logomedia{
+  position: absolute;
+  top: 1280px;
+  right: 300px;
+
+}
+
+
+
+.logomedia img{
+  width: 40px;
+
+}
+
+
+#midline2{
+  box-sizing: border-box;
+  background-color: rgb(136, 131, 131);
+  position: absolute;
+  width: 1200px;
+  height: 2px;
+  z-index: 100;
+  left: 30px;
+  top: 1265px;
+
+}
+
+.ywebname{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 1110px;
+  left: 130px;
+  width: 100px;
+  font-family: 'raleway';
+  font-size: 20px;
+
+}
+
+.copyright{
+  position: absolute;
+  top: 1270px;
+  left: 50px;
+  color: white;
+  font-family: 'raleway';
+}
+
+.detailssosial{
+  position: absolute;
+  color: white;
+  top: 1120px;
+  right: 100px;
+  font-family: 'raleway';
+}
+
+
+/* ========================= MUSIC/VIDEO ============================================================== */
+#music{
+  visibility: hidden;
+  
+}
+/* ========================= END ====================================================================== */
+

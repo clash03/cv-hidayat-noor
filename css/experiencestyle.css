@@ -1,0 +1,456 @@
+/* ======================== NAVIGATOR/LINK ========================================================= */
+.navigator{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 222px;
+  margin-top: 0%;
+
+  z-index: 100;
+}
+
+
+.navigator a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 0%;
+  margin-top: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  transition: text-shadow 0.5s;
+
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+a:visited {
+  color: rgb(183, 183, 183);
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+#navbox{
+  box-sizing: border-box;
+  background-color: #131919;
+  width: 2000px;
+  height: 50px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transition: box-shadow 0.5s;
+  z-index: 99;
+}
+
+
+/* ========================= END ==================================================================== */
+  
+/* =================== BODY/BACKGROUND=============================================================== */
+
+  body {
+    margin:40px;
+    background: url(csspicture/bg7.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+/* ========================= END ===================================================================== */
+
+/* ========================= HEADER/TAJUK PAGE ======================================================= */
+.logobiodata{
+  position: fixed;
+  z-index: 100;
+}
+
+#biodata{
+  position: fixed;
+  z-index: 110;
+  top:-70px;
+  left: 40px;
+  width: 200px;
+}
+
+/* ========================= END ====================================================================== */
+
+
+/* ==================== GAMBAR PROGRAM ============================================================== */
+.talkterapi{
+  position: absolute;
+  border-radius:15px;
+  box-sizing: border-box;
+  background-color: black;
+  box-shadow:  0px 60px 0px rgba(0, 0, 0, 0.418);
+  top: 200px;
+  left: 100px;
+  overflow: hidden;
+  filter: grayscale(50%);
+  transition: box-shadow 0.4s;
+  padding: 0px;
+  border-style: none;
+
+}
+
+.hakems{
+  position: absolute;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: black;
+  box-shadow:  0px 60px 0px rgba(0, 0, 0, 0.418);
+  left: 475px;
+  top: 200px;
+  overflow: hidden;
+  filter: grayscale(50%);
+  transition: box-shadow 0.4s;
+  padding: 0px;
+  border-style: none;
+}
+
+.maaez{
+  position: absolute;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: black;
+  box-shadow:  0px 60px 0px rgba(0, 0, 0, 0.418);
+  left: 850px;
+  top: 200px;
+  overflow: hidden;
+  filter: grayscale(50%);
+  transition: box-shadow 0.4s;
+  padding: 0px;
+  border-style: none;
+}
+
+.intern{
+  position: absolute;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: black;
+  box-shadow:  0px 60px 0px rgba(0, 0, 0, 0.418);
+  left: 475px;
+  top: 550px;
+  overflow: hidden;
+  filter: grayscale(50%);
+  transition: box-shadow 0.4s;
+  padding: 0px;
+  border-style: none;
+}
+/* ========================= END ============================================================== */
+
+/* ===================== IMAGE HOVER ============================================================== */
+.talkterapi:hover{
+  box-shadow:  0px 0px 10px white;
+  filter: grayscale(0%);
+  cursor: pointer;
+
+}
+
+.hakems:hover{
+  box-shadow: 0px 0px 10px white;
+  filter: grayscale(0%);
+  cursor: pointer;
+
+}
+
+.maaez:hover{
+  box-shadow: 0px 0px 10px white;
+  filter: grayscale(0%);
+  cursor: pointer;
+
+}
+
+.intern:hover{
+  box-shadow: 0px 0px 10px white;
+  filter: grayscale(0%);
+  cursor: pointer;
+
+}
+/* ============================= END ============================================================== */
+
+/* ========================= TEXT PROGRAM ============================================================== */
+.texttalkterapi{
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  position: absolute;
+  top: 390px;
+  left: 165px;
+  color: white;
+  font-family: 'Segoe UI';
+
+}
+
+.texttalkterapi:hover{
+  cursor: default;
+
+}
+
+.texthakems{
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 380px;
+  left: 465px;
+  color: white;
+  font-family: 'Segoe UI';
+  width: 300px;
+
+}
+
+.texthakems:hover{
+  
+}
+
+.textmaaez{
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 390px;
+  left: 890px;
+  color: white;
+  font-family: 'Segoe UI';
+
+}
+
+.textmaaez:hover{
+  
+}
+
+
+.textintern{
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 740px;
+  left: 540px;
+  color: white;
+  font-family: 'Segoe UI';
+
+}
+
+.textintern:hover{
+  
+}
+
+/* ========================= END ============================================================== */
+
+/* ======================================================================================= */
+
+/* ========================= FOOTER ============================================================== */
+#borderfoot{
+  position:absolute;
+  background-color: #131919;
+  box-sizing: border-box;
+  top: 1080px;
+  width: 1263px;
+  height: 250px;
+  left: 0%;
+}
+
+
+.yweb img{
+ position: absolute;
+ top: 1120px;
+ left: 40px;
+ width: 100px;
+ z-index: 99;
+
+}
+
+.logomedia{
+  position: absolute;
+  top: 1280px;
+  right: 300px;
+
+}
+
+
+
+.logomedia img{
+  width: 40px;
+
+}
+
+
+#midline2{
+  box-sizing: border-box;
+  background-color: rgb(136, 131, 131);
+  position: absolute;
+  width: 1200px;
+  height: 2px;
+  z-index: 99;
+  left: 30px;
+  top: 1265px;
+
+}
+
+.ywebname{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 1110px;
+  left: 130px;
+  width: 100px;
+  font-family: 'Raleway';
+  font-size: 20px;
+
+}
+
+.copyright{
+  position: absolute;
+  top: 1270px;
+  left: 50px;
+  color: white;
+  font-family: 'Raleway';
+
+}
+
+.detailssosial{
+  position: absolute;
+  color: white;
+  top: 1120px;
+  right: 100px;
+  font-family: 'raleway';
+}
+
+/* ========================= END ============================================================== */
+
+
+
+
+
+/* ========================= MUSIC/VIDEO ============================================================== */
+#music{
+    visibility: hidden;
+}
+/* ========================= END ====================================================================== */
+  
+/* =============================================================================================== */
+
+/* ========================= ====================================================================== */
+
+.open-button {
+  background-color: transparent;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 23px;
+  left:50px;
+  width: 10px;
+}
+
+
+.form-popup {
+  background-color: rgb(255, 255, 255);
+  display: none;
+  position: fixed;
+  top:50px;
+  left: 50px;
+  border: 3px solid #f1f1f1;
+  z-index: 100;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px black;
+  height: 550px;
+  width: 1160px;
+  border-radius: 20px;
+
+
+}
+
+
+.imageform{
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 10px;
+  left: 20px;
+  top:30px;
+
+}
+
+
+.imageform img{
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 10px;
+  width: 250px;
+
+}
+
+
+
+.form-container .btn-cancel {
+  background-color: #9e0303;
+  color: white;
+  padding: 16px 20px;
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  bottom: 10px;
+  left: 515px;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

@@ -1,0 +1,500 @@
+/* ======================== NAVIGATOR/LINK ========================================================= */
+.navigator{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 222px;
+  margin-top: 0%;
+
+  z-index: 100;
+}
+
+
+.navigator a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 0%;
+  margin-top: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  transition: text-shadow 0.5s;
+
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+a:visited {
+  color: rgb(183, 183, 183);
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+#navbox{
+  box-sizing: border-box;
+  background-color: #131919;
+  width: 2000px;
+  height: 50px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transition: box-shadow 0.5s;
+  z-index: 99;
+}
+
+
+/* ========================= END ==================================================================== */
+  
+/* =================== BODY/BACKGROUND=============================================================== */
+
+  body {
+    margin:40px;
+    background: url(csspicture/bg7.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+/* ========================= END ===================================================================== */
+
+/* ========================= HEADER/TAJUK PAGE ======================================================= */
+.logobiodata{
+  position: fixed;
+  z-index: 100;
+}
+
+#biodata{
+  position: fixed;
+  z-index: 110;
+  top:-70px;
+  left: 40px;
+  width: 200px;
+}
+
+
+/* ========================= END ====================================================================== */
+  .section{
+  
+  }
+
+
+/* =========================  SKJ, SMKJ, UITM ====================================================================== */
+  #logoskj{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 210px;
+    box-shadow: 0px 0px 10px white;
+    overflow: hidden;
+    position: static;
+    filter: grayscale(50%);
+    transition: box-shadow 0.5s;
+  }
+
+  #logosmkj{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px white;
+    overflow: hidden;
+    position: static;
+    filter: grayscale(50%);
+    transition: box-shadow 0.5s;
+  }
+
+  #logouitm1{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px white;
+    overflow: hidden;
+    position: static;
+    filter: grayscale(50%);
+    transition: box-shadow 0.5s;
+  }
+
+  #logouitm2{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-left: 550px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px white;
+    overflow: hidden;
+    position: static;
+    filter: grayscale(50%);
+    transition: box-shadow 0.5s;
+
+  }
+  
+
+  #logoskj:hover{
+    box-shadow: 0px 0px 52px white;
+    filter: grayscale(0%);
+  }
+
+  #logosmkj:hover{
+    box-shadow: 0px 0px 52px white;
+    filter: grayscale(0%);
+  }
+
+  #logouitm1:hover{
+    box-shadow: 0px 0px 52px white;
+    filter: grayscale(0%);
+  }
+
+  #logouitm2:hover{
+    box-shadow: 0px 0px 52px white;
+    filter: grayscale(0%);
+  }
+/* ========================= END ====================================================================== */
+
+
+/* ========================= ALL TEXT LABEL ====================================================================== */
+h3{
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+h4{
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+p{
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LABEL 1 SKJ ====================================================================== */
+
+.label1{
+  box-sizing: border-box;
+  background-color: #0808085e;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 400px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 210px;
+  left: 100px;
+}
+
+.label1:hover{
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px white;
+}
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LABEL 2 SMKJ ====================================================================== */
+.label2{
+  box-sizing: border-box;
+  background-color: #0808085e;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 400px; 
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 400px;
+  right: 100px;
+}
+
+.label2:hover{
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px white;
+}
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LABEL 3 UITM DUNGUN ====================================================================== */
+.label3{
+  box-sizing: border-box;
+  background-color: #0808085e;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 400px; 
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 555px;
+  left: 100px;
+}
+
+.label3:hover{
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px white;
+}
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= LABEL 4 UITM MACHANG ====================================================================== */
+.label4{
+  box-sizing: border-box;
+  background-color: #0808085e;
+  box-shadow: 1px 1px 1px 1px white;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 400px; 
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  top: 760px;
+  right: 100px;
+}
+
+.label4:hover{
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px white;
+}
+/* ========================= END ====================================================================== */
+
+
+/* ========================= TRIANGLE ARROW ====================================================================== */
+
+.triangle-right1 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #060606d5;
+	border-bottom: 25px solid transparent;
+  top: 270px;
+  left: 518px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  filter: drop-shadow(0px 2px 0 rgb(255, 255, 255));
+  cursor: pointer;
+}
+
+.triangle-right2 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #060606d5;
+	border-bottom: 25px solid transparent;
+  top: 470px;
+  right: 505px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  filter: drop-shadow(0px 2px 0 rgb(255, 255, 255));
+  cursor: pointer;
+}
+
+.triangle-right3 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #060606d5;
+	border-bottom: 25px solid transparent;
+  top: 675px;
+  left: 515px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  filter: drop-shadow(0px 2px 0 rgb(255, 255, 255));
+  cursor: pointer;
+}
+
+.triangle-right4 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #060606d5;
+	border-bottom: 25px solid transparent;
+  top: 880px;
+  right: 505px;
+  overflow-y: scroll;
+  overflow: hidden;
+  position: absolute;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 2px 0 rgb(255, 255, 255));  
+  cursor: pointer;
+}
+
+
+.triangle-right1:hover{
+  transform: translateY(-5px);
+  transition: transform 100ms;
+  transition-timing-function: linear;
+}
+
+.triangle-right2:hover{
+  transform: translateY(-3px);
+  transition: transform 100ms;
+  transition-timing-function: linear;
+}
+
+
+.triangle-right3:hover{
+  transform: translateY(-3px);
+  transition: transform 100ms;
+  transition-timing-function: linear;
+}
+
+
+.triangle-right4:hover{
+  transform: translateY(-3px);
+  transition: transform 100ms;
+  transition-timing-function: linear;
+}
+
+
+
+
+
+/* ========================= FOOTER ====================================================================== */
+
+#borderfoot{
+  position:absolute;
+  background-color: #131919;
+  box-sizing: border-box;
+  top: 1080px;
+  width: 1263px;
+  height: 250px;
+  left: 0%;
+}
+
+
+.yweb img{
+ position: absolute;
+ top: 1120px;
+ left: 40px;
+ width: 100px;
+ z-index: 100;
+
+}
+
+.logomedia{
+  position: absolute;
+  top: 1280px;
+  right: 300px;
+
+}
+
+
+
+.logomedia img{
+  width: 40px;
+
+}
+
+
+#midline2{
+  box-sizing: border-box;
+  background-color: rgb(136, 131, 131);
+  position: absolute;
+  width: 1200px;
+  height: 2px;
+  z-index: 100;
+  left: 30px;
+  top: 1265px;
+
+}
+
+.ywebname{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 1110px;
+  left: 130px;
+  width: 100px;
+  font-family: 'raleway';
+  font-size: 20px;
+
+}
+
+.copyright{
+  position: absolute;
+  top: 1270px;
+  left: 50px;
+  color: white;
+  font-family: 'raleway';
+
+}
+
+.detailssosial{
+  position: absolute;
+  color: white;
+  top: 1120px;
+  right: 100px;
+  font-family: 'raleway';
+}
+
+/* ========================= END ====================================================================== */
+
+
+/* ========================= MUSIC/VIDEO ============================================================== */
+  #music{
+    visibility: hidden;
+  }
+/* ========================= END ====================================================================== */
+  
+  

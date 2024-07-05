@@ -1,0 +1,330 @@
+/* ======================== NAVIGATOR/LINK ========================================================= */
+.navigator{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin-right: 0%;
+  margin-left: 222px;
+  margin-top: 0%;
+
+  z-index: 100;
+}
+
+
+.navigator a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 0%;
+  margin-top: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  transition: text-shadow 0.5s;
+
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+a:visited {
+  color: rgb(183, 183, 183);
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 5px white, 0 0 2px white;
+
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+#navbox{
+  box-sizing: border-box;
+  background-color: #131919;
+  width: 2000px;
+  height: 50px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transition: box-shadow 0.5s;
+  z-index: 99;
+}
+
+
+/* ========================= END ==================================================================== */
+  
+/* =================== BODY/BACKGROUND=============================================================== */
+
+  body {
+    margin:40px;
+    background: url(csspicture/bg7.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* ========================= END ===================================================================== */
+
+/* ========================= HEADER/TAJUK PAGE ======================================================= */
+.logobiodata{
+  position: fixed;
+  z-index: 100;
+}
+
+#biodata{
+  position: fixed;
+  z-index: 110;
+  top:-70px;
+  left: 40px;
+  width: 200px;
+}
+
+/* ========================= END ====================================================================== */
+
+.mainbox{
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.511);
+  padding: 200px 400px;
+  position: absolute;
+  right: 240px;
+  top: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px white;
+}
+
+.textname{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top:50px;
+
+}
+
+.textemail{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top:120px;
+  
+}
+
+.textcomment{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top:200px;
+
+}
+
+.submit{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top:350px;
+
+}
+/* ========================= END ===================================================================== */
+
+/* ===================================================================================================== */
+
+
+/* ========================= SOCIAL MEDIA  ===================================================================== */
+
+#phonelogo{
+  position: absolute;  
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  left: 600px;
+  top: 250px;
+  filter: drop-shadow(1px 1px 5px white);
+
+}
+
+#maillogo{
+  position: absolute;  
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  left: 600px;
+  top: 350px;
+  filter: drop-shadow(1px 1px 5px white);
+
+}
+
+#iglogo{
+  position: absolute;  
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  left: 600px;
+  top: 450px;
+  filter: drop-shadow(1px 1px 5px white);
+
+}
+
+/* ====================== TEXT SOCIAL MEDIA =============================================================================== */
+
+#whatsapp{
+  z-index: 10;
+  color: white;
+  position: absolute;
+  left: 670px;
+  top:242px;
+
+}
+
+#email{
+  z-index: 10;
+  color: white;
+  position: absolute;
+  left: 670px;
+  top:342px;
+
+}
+
+#ig{
+  z-index: 10;
+  color: white;
+  position: absolute;
+  left: 670px;
+  top:442px;
+
+}
+
+/* ========================== SOCIAL MEDIA HOVER=========================================================================== */
+#phonelogo:hover{
+  filter: drop-shadow(0px 0px 1px black);
+
+}
+
+#maillogo:hover{
+  filter: drop-shadow(0px 0px 1px black);
+
+}
+
+#iglogo:hover{
+  filter: drop-shadow(0px 0px 1px black);
+
+}
+/* ============================== END ======================================================================= */
+
+/* ===================================================================================================== */
+
+/* ============================ FOOTER ========================================================================= */
+
+
+
+#borderfoot{
+  position:absolute;
+  background-color: #131919;
+  box-sizing: border-box;
+  top: 860px;
+  width: 1263px;
+  height: 250px;
+  left: 0%;
+}
+
+
+.yweb img{
+ position: absolute;
+ top: 900px;
+ left: 40px;
+ width: 100px;
+ z-index: 100;
+
+}
+
+.logomedia{
+  position: absolute;
+  top: 1060px;
+  right: 300px;
+
+}
+
+
+
+.logomedia img{
+  width: 40px;
+
+}
+
+
+#midline2{
+  box-sizing: border-box;
+  background-color: rgb(136, 131, 131);
+  position: absolute;
+  width: 1200px;
+  height: 2px;
+  z-index: 100;
+  left: 30px;
+  top: 1050px;
+
+}
+
+.ywebname{
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 890px;
+  left: 130px;
+  width: 100px;
+  font-family: 'raleway';
+  font-size: 20px;
+
+}
+
+.copyright{
+  position: absolute;
+  top: 1050px;
+  left: 50px;
+  color: white;
+  font-family: 'raleway';
+
+}
+
+.detailssosial{
+  position: absolute;
+  color: white;
+  top: 900px;
+  right: 100px;
+  font-family: 'raleway';
+}
+/* ====================== END =============================================================================== */
+
+/* ===================================================================================================== */
+
+
+/* ========================= MUSIC/VIDEO ============================================================== */
+#music{
+  visibility: hidden;
+}
+/* ========================= END ====================================================================== */
+  
+  
